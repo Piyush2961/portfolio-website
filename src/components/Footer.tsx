@@ -17,10 +17,7 @@ export default function Footer() {
               <a href="tel:+918968667307" className={styles.footerLink}>+91 8968667307</a>
             </div>
             
-            <div className={styles.linkGroup}>
-              <h5 className={styles.groupTitle}>Social</h5>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className={styles.footerLink}>LinkedIn</a>
-              <a href="#" className={styles.footerLink}>Instagram</a>
+              <a href="https://www.linkedin.com/in/meghna-saxena-0b2370266/" target="_blank" rel="noopener noreferrer" className={styles.footerLink}>LinkedIn</a>
             </div>
             
             <div className={styles.linkGroup}>
