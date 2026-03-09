@@ -42,6 +42,14 @@ export default function Works() {
       highlight: "Engagement Strategy",
       linkUrl: "https://blog.aapkabazar.co/?s=sector+8",
       linkText: "Read Blogs"
+    },
+    {
+      title: "Facebook Ads Campaign",
+      client: "Environmental Awareness",
+      description: "Strategic Meta Ads execution focusing on audience precision and traffic scaling for an eco-conscious digital platform.",
+      highlight: "Traffic & Ad Strategy",
+      linkUrl: "/assets/Capstone_Project_10.pdf",
+      linkText: "Case Study"
     }
   ];
 
