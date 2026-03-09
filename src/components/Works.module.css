@@ -1,0 +1,141 @@
+.works {
+  padding: 10rem 2rem;
+  background: var(--bg-primary);
+  position: relative;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  text-align: left;
+  margin-bottom: 6rem;
+}
+
+.miniTitle {
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: var(--accent-color);
+  margin-bottom: 1.5rem;
+}
+
+.mainTitle {
+  font-family: var(--font-serif);
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  line-height: 1.1;
+  color: var(--text-primary);
+  margin: 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4rem;
+}
+
+.workCard {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 3rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.workCard:hover {
+  transform: translateY(-10px);
+}
+
+.workHeader {
+  margin-bottom: 1.5rem;
+}
+
+.clientLabel {
+  display: block;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--accent-color);
+  margin-bottom: 0.75rem;
+}
+
+.workTitle {
+  font-family: var(--font-serif);
+  font-size: 2.25rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin: 0;
+  line-height: 1.2;
+}
+
+.workDescription {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: var(--text-secondary);
+  margin-bottom: 2rem;
+}
+
+.workFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: auto;
+}
+
+.workHighlight {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.linkAction {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: color 0.3s ease;
+}
+
+.linkAction:hover {
+  color: var(--accent-color);
+}
+
+.arrow {
+  transition: transform 0.3s ease;
+}
+
+.linkAction:hover .arrow {
+  transform: translateX(5px);
+}
+
+@media (max-width: 1024px) {
+  .grid {
+    gap: 3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .works {
+    padding: 6rem 1.5rem;
+  }
+  .grid {
+    grid-template-columns: 1fr;
+  }
+  .workTitle {
+    font-size: 1.75rem;
+  }
+  .workFooter {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+  }
+}

@@ -39,3 +39,15 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# python
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# misc
+canva_dump.html
+read_pdfs.js
+read_pdfs.py
+assets/
