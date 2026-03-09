@@ -18,7 +18,7 @@ export default function Hero() {
             </p>
             <div className={styles.ctaGroup}>
               <a href="#about" className={styles.primaryBtn}>Explore My Work</a>
-              <a href="#contact" className={styles.secondaryBtn}>Get In Touch</a>
+              <a href="mailto:meghnasaxena2002@gmail.com" className={styles.secondaryBtn}>Get In Touch</a>
             </div>
           </div>
           <div className={styles.visualContent}>
