@@ -5,8 +5,8 @@ export default function HeroVisual() {
     <div className={styles.visualContainer}>
       <div className={styles.imageWrapper}>
         <img 
-          src="/images/premium_hero_abstract.png" 
-          alt="Premium Silk Texture" 
+          src="/images/meghna_saxena.jpg" 
+          alt="Meghna Saxena" 
           className={styles.visualImage}
         />
       </div>
