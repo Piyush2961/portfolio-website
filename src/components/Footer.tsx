@@ -19,13 +19,12 @@ export default function Footer() {
 
             <div className={styles.linkGroup}>
               <h5 className={styles.groupTitle}>Social</h5>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className={styles.footerLink}>LinkedIn</a>
-              <a href="#" className={styles.footerLink}>Instagram</a>
+              <a href="https://www.linkedin.com/in/meghna-saxena-0b2370266/" target="_blank" rel="noopener noreferrer" className={styles.footerLink}>LinkedIn</a>
             </div>
 
             <div className={styles.linkGroup}>
               <h5 className={styles.groupTitle}>Location</h5>
-              <span className={styles.locationText}>Mohali, Punjab, IN</span>
+              <span className={styles.locationText}>Chandigarh, India</span>
             </div>
           </div>
         </div>
