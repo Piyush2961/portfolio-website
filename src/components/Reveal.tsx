@@ -5,9 +5,10 @@ interface RevealProps {
   children: React.ReactNode;
   width?: "fit-content" | "100%";
   delay?: number;
+  overflow?: "hidden" | "visible";
 }
 
-export const Reveal = ({ children, width = "fit-content", delay = 0 }: RevealProps) => {
+export const Reveal = ({ children, width = "fit-content", delay = 0, overflow = "hidden" }: RevealProps) => {
   const ref = useRef(null);
   const [isVisible, setIsVisible] = useState(false);
 
@@ -39,7 +40,7 @@ export const Reveal = ({ children, width = "fit-content", delay = 0 }: RevealPro
       style={{
         position: 'relative',
         width,
-        overflow: 'hidden',
+        overflow,
         opacity: isVisible ? 1 : 0,
         transform: isVisible ? 'none' : 'translateY(50px)',
         transition: `all 0.8s cubic-bezier(0.16, 1, 0.3, 1) ${delay}s`,

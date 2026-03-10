@@ -33,9 +33,6 @@ export default function Footer() {
           <p className={styles.copyright}>
             © {new Date().getFullYear()} Meghna Saxena. <span className="italic-serif">All Rights Reserved.</span>
           </p>
-          <div className={styles.credits}>
-            Built with <span className={styles.accentText}>Next.js</span>
-          </div>
         </div>
       </div>
     </footer>

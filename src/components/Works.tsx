@@ -63,7 +63,7 @@ export default function Works() {
 
         <div className={styles.grid}>
           {works.map((work, index) => (
-            <Reveal key={index} width="100%" delay={index * 0.1}>
+            <Reveal key={index} width="100%" delay={index * 0.1} overflow="visible">
               <div className={styles.workCard}>
                 <div className={styles.workContent}>
                   <div className={styles.workHeader}>
