@@ -8,7 +8,7 @@ export default function Works() {
       client: "ShoutMeLoud",
       description: "A comprehensive technical diagnostic and optimization project focusing on site architecture, structured data, and core web vitals.",
       highlight: "Optimization & Speed",
-      linkUrl: "#",
+      linkUrl: "https://drive.google.com/file/d/1x0qtF8I_URgchcZVWtM4FPc7M187DPPw/view?usp=sharing",
       linkText: "Case Study"
     },
     {
@@ -16,7 +16,7 @@ export default function Works() {
       client: "SkillBloom",
       description: "End-to-end development of a custom WordPress learning environment equipped with specialized SEO content systems.",
       highlight: "Full Stack Growth",
-      linkUrl: "#",
+      linkUrl: "https://drive.google.com/file/d/1dQrWBB_eV7gK6K_0EzbH8Ffd0anRFlUZ/view?usp=sharing",
       linkText: "Case Study"
     },
     {
@@ -24,7 +24,7 @@ export default function Works() {
       client: "GMB Optimization",
       description: "Precision-engineered local SEO setup driving high-intent organic traffic through regional keyword leadership.",
       highlight: "Visibility Engine",
-      linkUrl: "#",
+      linkUrl: "https://drive.google.com/file/d/1HHRq8IBKCR_31tK02C67w2C78B56sFb4/view?usp=sharing",
       linkText: "Case Study"
     },
     {
@@ -32,7 +32,7 @@ export default function Works() {
       client: "Go Green With Me",
       description: "A niche digital authority project demonstrating organic audience growth through value-driven content strategy.",
       highlight: "Organic Authority",
-      linkUrl: "#",
+      linkUrl: "https://drive.google.com/file/d/1NtiES5GT-DrjpMyoDlDQiNwSdS0QxSP8/view?usp=sharing",
       linkText: "Case Study"
     },
     {
@@ -40,7 +40,7 @@ export default function Works() {
       client: "Aap Ka Bazar",
       description: "High-volume content production focusing on consumer engagement and brand authority across diverse sectors.",
       highlight: "Engagement Strategy",
-      linkUrl: "https://blog.aapkabazar.co/?s=sector+8",
+      linkUrl: "https://blog.aapkabazar.co/author/meghna/",
       linkText: "Read Blogs"
     },
     {
@@ -48,7 +48,7 @@ export default function Works() {
       client: "Environmental Awareness",
       description: "Strategic Meta Ads execution focusing on audience precision and traffic scaling for an eco-conscious digital platform.",
       highlight: "Traffic & Ad Strategy",
-      linkUrl: "/assets/Capstone_Project_10.pdf",
+      linkUrl: "https://drive.google.com/file/d/1HP_TMyrmnHDw_6LjAIQOpOwm1QJPEh9p/view?usp=sharing",
       linkText: "Case Study"
     }
   ];
@@ -60,7 +60,7 @@ export default function Works() {
           <h2 className={styles.miniTitle}>Portfolio</h2>
           <h3 className={styles.mainTitle}>Selected <span className="italic-serif">Case</span> Studies</h3>
         </div>
-        
+
         <div className={styles.grid}>
           {works.map((work, index) => (
             <Reveal key={index} width="100%" delay={index * 0.1}>
